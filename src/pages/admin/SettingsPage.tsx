@@ -181,7 +181,8 @@ export default function SettingsPage() {
             bucketName="blog-images"
             pathPrefix="favicons"
             previewMode="contain"
-            description="Recommended: 32×32px, 192×192px, or 512×512px ICO or PNG."
+            acceptTypes={['ico']}
+            description="Only ICO files accepted. Recommended: 32×32px or 192×192px."
           />
 
           <div className="space-y-1">

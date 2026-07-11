@@ -1,7 +1,7 @@
 # Blogify CMS - AI Agent Context
 
 ## Base Site URL
-http://localhost:5174
+https://blogifyycms.vercel.app
 
 ## Site Index Feed
 - Blogs: /blogs

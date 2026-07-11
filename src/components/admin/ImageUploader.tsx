@@ -10,6 +10,7 @@ interface ImageUploaderProps {
   pathPrefix?: string;
   previewMode?: 'cover' | 'contain';
   description?: string;
+  acceptTypes?: string[]; // e.g. ['ico'] to restrict to ICO only
 }
 
 export default function ImageUploader({
@@ -20,6 +21,7 @@ export default function ImageUploader({
   pathPrefix = 'posts',
   previewMode = 'cover',
   description,
+  acceptTypes,
 }: ImageUploaderProps) {
   const [uploading, setUploading] = useState(false);
   const [dragActive, setDragActive] = useState(false);
@@ -33,9 +35,9 @@ export default function ImageUploader({
 
     // 1. Validation
     const fileExt = file.name.split('.').pop()?.toLowerCase();
-    const allowedExts = ['jpg', 'jpeg', 'png', 'webp', 'gif', 'ico', 'svg'];
+    const allowedExts = acceptTypes ?? ['jpg', 'jpeg', 'png', 'webp', 'gif', 'ico', 'svg'];
     if (!allowedExts.includes(fileExt || '')) {
-      setError('Only JPG, JPEG, PNG, WEBP, GIF, ICO, and SVG files are allowed.');
+      setError(`Only ${allowedExts.map(e => e.toUpperCase()).join(', ')} files are allowed.`);
       return;
     }
 
@@ -214,7 +216,7 @@ export default function ImageUploader({
                       Drag & drop your image here, or <span className="text-blue-600 dark:text-blue-400 hover:underline">browse</span>
                     </p>
                     <p className="text-[10px] text-gray-400 mt-1">
-                      Supports JPG, JPEG, PNG, WEBP, and GIF (Max 5MB)
+                      Supports {(acceptTypes ?? ['JPG', 'JPEG', 'PNG', 'WEBP', 'GIF']).map(e => e.toUpperCase()).join(', ')} (Max 5MB)
                     </p>
                   </div>
                 </div>
@@ -227,7 +229,7 @@ export default function ImageUploader({
             type="file"
             ref={fileInputRef}
             onChange={handleFileInputChange}
-            accept=".jpg,.jpeg,.png,.webp,.gif"
+            accept={(acceptTypes ?? ['jpg', 'jpeg', 'png', 'webp', 'gif', 'ico', 'svg']).map(e => `.${e}`).join(',')}
             className="hidden"
           />
 

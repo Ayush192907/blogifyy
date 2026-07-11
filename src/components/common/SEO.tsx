@@ -59,11 +59,14 @@ export default function SEO({
       if (type) tag.setAttribute('type', type);
     };
 
-    // Update favicon tags dynamically
+    // Update favicon dynamically from settings
     const finalFavicon = settings.favicon_url || '/favicon.ico';
-    updateLinkTag('icon', finalFavicon);
-    updateLinkTag('shortcut icon', finalFavicon);
-    updateLinkTag('apple-touch-icon', finalFavicon);
+    const faviconLink = document.getElementById('dynamic-favicon') as HTMLLinkElement | null;
+    if (faviconLink) {
+      faviconLink.href = finalFavicon;
+    } else {
+      updateLinkTag('icon', finalFavicon);
+    }
 
     // 2. Update Meta Description
     const finalDescription = description || 'Read the latest high-quality articles, guides, and stories on tech, business, lifestyle, health, and travel.';
@@ -113,7 +116,7 @@ export default function SEO({
       document.head.appendChild(scriptTag);
     }
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [title, description, keywords, ogImage, ogType, canonicalUrl, robots, schemaJson, location.pathname]);
+  }, [title, description, keywords, ogImage, ogType, canonicalUrl, robots, schemaJson, location.pathname, settings]);
 
   return null;
 }
