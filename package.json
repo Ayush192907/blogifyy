@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build && node -e \"const fs=require('fs');['sitemap.xml','robots.txt','llms.txt'].forEach(f=>{try{fs.unlinkSync('dist/'+f)}catch{}});console.log('Cleaned static SEO files from dist/ - served by API instead.');\"",
     "lint": "eslint .",
     "preview": "vite preview",
     "typecheck": "tsc --noEmit -p tsconfig.app.json"
