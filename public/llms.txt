@@ -1,0 +1,11 @@
+# Blogify CMS - AI Agent Context
+
+## Base Site URL
+http://localhost:5174
+
+## Site Index Feed
+- Blogs: /blogs
+- Contact Form: /contact
+
+## Topical Coverage
+Technology, Business, Lifestyle, Travel, and Health.
