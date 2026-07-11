@@ -85,7 +85,7 @@ export default function Header() {
               <img
                 src={settings.logo_url}
                 alt={siteName}
-                className="object-contain w-auto h-auto max-w-[150px] max-h-[40px] sm:max-w-[180px] sm:max-h-[45px] lg:max-w-[200px] lg:max-h-[50px] select-none"
+                className="object-contain w-auto h-auto max-w-[350px] max-h-[25px] sm:max-w-[150px] sm:max-h-[30px] lg:max-w-[170px] lg:max-h-[35px] select-none"
               />
             ) : (
               <>
