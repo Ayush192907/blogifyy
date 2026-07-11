@@ -2,25 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <!-- Website Home and Indexes -->
   <url>
-    <loc>http://localhost:5174/</loc>
+    <loc>https://blogifyycms.vercel.app/</loc>
     <lastmod>2026-07-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>http://localhost:5174/blogs</loc>
+    <loc>https://blogifyycms.vercel.app/blogs</loc>
     <lastmod>2026-07-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>http://localhost:5174/contact</loc>
+    <loc>https://blogifyycms.vercel.app/contact</loc>
     <lastmod>2026-07-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:5174/search</loc>
+    <loc>https://blogifyycms.vercel.app/search</loc>
     <lastmod>2026-07-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.3</priority>
@@ -28,7 +28,7 @@
 
   <!-- Published Articles / Blogs -->
   <url>
-    <loc>http://localhost:5174/blogs/10-strategies-startup-scaling-2026</loc>
+    <loc>https://blogifyycms.vercel.app/blogs/10-strategies-startup-scaling-2026</loc>
     <lastmod>2026-06-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -38,7 +38,7 @@
     </image:image>
   </url>
   <url>
-    <loc>http://localhost:5174/blogs/hidden-gems-visit-kyoto-japan</loc>
+    <loc>https://blogifyycms.vercel.app/blogs/hidden-gems-visit-kyoto-japan</loc>
     <lastmod>2026-06-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -48,7 +48,7 @@
     </image:image>
   </url>
   <url>
-    <loc>http://localhost:5174/blogs/perfect-morning-routine-peak-productivity</loc>
+    <loc>https://blogifyycms.vercel.app/blogs/perfect-morning-routine-peak-productivity</loc>
     <lastmod>2026-06-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -58,7 +58,7 @@
     </image:image>
   </url>
   <url>
-    <loc>http://localhost:5174/blogs/science-backed-benefits-intermittent-fasting</loc>
+    <loc>https://blogifyycms.vercel.app/blogs/science-backed-benefits-intermittent-fasting</loc>
     <lastmod>2026-06-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -68,7 +68,7 @@
     </image:image>
   </url>
   <url>
-    <loc>http://localhost:5174/blogs/future-of-generative-ai-software-development</loc>
+    <loc>https://blogifyycms.vercel.app/blogs/future-of-generative-ai-software-development</loc>
     <lastmod>2026-07-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -80,37 +80,37 @@
 
   <!-- Category Archives -->
   <url>
-    <loc>http://localhost:5174/category/technology</loc>
+    <loc>https://blogifyycms.vercel.app/category/technology</loc>
     <lastmod>2026-06-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>http://localhost:5174/category/business</loc>
+    <loc>https://blogifyycms.vercel.app/category/business</loc>
     <lastmod>2026-06-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>http://localhost:5174/category/lifestyle</loc>
+    <loc>https://blogifyycms.vercel.app/category/lifestyle</loc>
     <lastmod>2026-06-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>http://localhost:5174/category/travel</loc>
+    <loc>https://blogifyycms.vercel.app/category/travel</loc>
     <lastmod>2026-06-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>http://localhost:5174/category/health</loc>
+    <loc>https://blogifyycms.vercel.app/category/health</loc>
     <lastmod>2026-06-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>http://localhost:5174/category/finance</loc>
+    <loc>https://blogifyycms.vercel.app/category/finance</loc>
     <lastmod>2026-06-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -118,31 +118,31 @@
 
   <!-- Static Information & Compliance Pages -->
   <url>
-    <loc>http://localhost:5174/disclaimer</loc>
+    <loc>https://blogifyycms.vercel.app/disclaimer</loc>
     <lastmod>2026-07-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>http://localhost:5174/contact</loc>
+    <loc>https://blogifyycms.vercel.app/contact</loc>
     <lastmod>2026-07-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>http://localhost:5174/terms-and-conditions</loc>
+    <loc>https://blogifyycms.vercel.app/terms-and-conditions</loc>
     <lastmod>2026-07-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>http://localhost:5174/privacy-policy</loc>
+    <loc>https://blogifyycms.vercel.app/privacy-policy</loc>
     <lastmod>2026-07-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>http://localhost:5174/about</loc>
+    <loc>https://blogifyycms.vercel.app/about</loc>
     <lastmod>2026-07-04</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
