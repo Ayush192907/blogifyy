@@ -229,7 +229,7 @@ export default function ImageUploader({
             type="file"
             ref={fileInputRef}
             onChange={handleFileInputChange}
-            accept={buildAcceptString(acceptTypes ?? ['jpg', 'jpeg', 'png', 'webp', 'gif', 'ico', 'svg'])}
+            accept={(acceptTypes ?? ['jpg', 'jpeg', 'png', 'webp', 'gif', 'ico', 'svg']).map(e => `.${e}`).join(',')}
             className="hidden"
           />
 
